@@ -5,6 +5,7 @@ import { Canvas, ThreeEvent, useFrame, useThree } from '@react-three/fiber'
 import { shaderMaterial, useTrailTexture } from '@react-three/drei'
 import { useTheme } from 'next-themes' // lub twój provider
 import * as THREE from 'three'
+ 
 
 const DotMaterial = shaderMaterial(
   {
